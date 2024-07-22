@@ -1,0 +1,103 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "MariaJose_Gomez",
+    "collectionId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+    "dateExported": "2024-07-22T15:44:54.651Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ae05db78-e247-49a4-8b92-c97bcf3b716d",
+            "colId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+            "containerId": "",
+            "name": "Ver personal",
+            "url": "localhost:3000/personal",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-22T15:31:03.940Z",
+            "modified": "2024-07-22T15:31:03.940Z",
+            "headers": []
+        },
+        {
+            "_id": "0d938d89-3779-41b6-815e-96fb66a6c572",
+            "colId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+            "containerId": "",
+            "name": "ver una persona",
+            "url": "localhost:3000/personal/5",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-22T15:32:19.755Z",
+            "modified": "2024-07-22T15:32:19.755Z",
+            "headers": []
+        },
+        {
+            "_id": "344f9327-f5b1-4200-a2e0-31ca114f1073",
+            "colId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+            "containerId": "",
+            "name": "agregar una persona",
+            "url": "localhost:3000/personal",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-22T15:32:38.268Z",
+            "modified": "2024-07-22T15:34:27.356Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n      \"nombre\": \"Pepito Pérez\",\n      \"rol\": \"cajero\",\n      \"salario\": 3000\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "8b8d3a0f-cd95-4cbf-80cc-01f4c83b350d",
+            "colId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+            "containerId": "",
+            "name": "Modificar personal",
+            "url": "localhost:3000/personal/3",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-22T15:35:18.059Z",
+            "modified": "2024-07-22T15:38:15.538Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n      \"nombre\": \"Ignacio Vargas\",\n      \"rol\": \"Supervisor\",\n      \"salario\": 6200\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "cdf33889-98d6-435b-9e6e-ba5162bb9bd9",
+            "colId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+            "containerId": "",
+            "name": "Eliminar personal",
+            "url": "localhost:3000/personal/11",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-22T15:38:51.275Z",
+            "modified": "2024-07-22T15:44:05.490Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBncEBnb256YS5jbCIsImlhdCI6MTcyMTY2Mjk4NX0.oJwbUji0YrKwrn1ozaRRo7q8vWqe5IBtD1U1q-xeIWI"
+                }
+            ]
+        },
+        {
+            "_id": "0bf41ff8-4e04-475b-8d94-d80ceefbe25c",
+            "colId": "35074755-f3a0-42c6-ac1e-509104a72cf0",
+            "containerId": "",
+            "name": "login",
+            "url": "localhost:3000/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-07-22T15:40:23.307Z",
+            "modified": "2024-07-22T15:43:05.123Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"pgp@gonza.cl\",\n  \"pass\":\"12345678\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "I1AUwUAI9Arx7SybHHlok0QrAyiXzqEjrNwazVG5kfuRb_J6NVcU7NcgYHr4x02r2G7V3m5sqvMAuyKL-9Y-aw"
+}
